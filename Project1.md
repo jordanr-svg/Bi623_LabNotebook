@@ -83,3 +83,13 @@ GSM7508790_CS23-12492-ATAC_peaks-q1.3.narrowPeak_sorted.txt
 Cranio_variants_sorted4bedtools.tsv
 
 PhyloP_RoCC_outputfromHope_sorted.txt
+
+
+
+# Part 4
+
+## 09/10/2026
+
+Plotted overlap in regions of interest.
+
+rstudio files and output files located in jordanr-svg-Bi623-Project-1/part4/
