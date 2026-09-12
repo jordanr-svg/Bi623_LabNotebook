@@ -1,6 +1,8 @@
 # Bi623 Project 2: Electric organ RNA-seq analysis
 
-## 08/27/2026:
+## Parts 1-3:
+
+### 08/27/2026:
 
 - Project 2 assigned
 - ran pixi init to installed 
@@ -17,7 +19,7 @@
      - Output Files Folder: fastqc_htmls/
 - finished fastqc report and uploaded to github repo.
 
-## 09/02/2026:
+### 09/02/2026:
 - ran cutadapt for both files, ran both in one sbatch shell script Project2_Part2/cutadapt.sh
 
 - example of word count (for one line) length change after cutadapt
@@ -49,7 +51,7 @@
 
 ✔ Added htseq >=2.1.2,<3
 
-## 09/03/2026:
+### 09/03/2026:
 - Made reference database with files:
 
 /projects/bgmp/shared/Bi623/Project2/campylomormyrus.fasta
@@ -150,3 +152,31 @@ Slurm out for stranded=yes htseq for SRR25630410
 	User time (seconds): 2422.67
 	System time (seconds): 8.13
 	Percent of CPU this job got: 99%
+
+## Part 4:
+
+### 09/09/2026
+
+- Completed in rstudio
+
+- Packages:
+library(tidyverse)
+library(DESeq2)
+library(tools)
+library(limma)
+library(qvalue)
+library(dplyr)
+library(edgeR)
+library(Glimma)
+library(ggplot2)
+library(RColorBrewer)
+library(apeglm)
+
+- We used Deseq to compare genes that are differentially expressed in the Electric Organ and Skeletal muscle
+
+- Workflow followed in folder: /projects/bgmp/jordanro/bioinfo/Bi623/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_part4
+
+file: Project2_part4-5.Rmd
+
+other resources:
+https://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html#the-variance-stabilizing-transformation-and-the-rlog
