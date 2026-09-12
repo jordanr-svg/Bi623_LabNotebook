@@ -1,0 +1,1 @@
+Lab notebooks are organized chronologically with section headers for parts and then dates. Scripts have file paths and bash commands are either linked to sbatch scripts or bash code used in the terminal.
